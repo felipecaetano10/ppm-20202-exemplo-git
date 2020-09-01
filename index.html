@@ -7,9 +7,24 @@
     </head>
 
     <body>
-        <h1>Teste</h1>
+        <h1>
+            Teste
+        </h1>
         <br><br>
-        <p>Teste parágrafo</p>        
+        <p>
+            Teste parágrafo
+        </p>    
+        <br><br>
+        <button id="1">
+            Clique aqui
+        </button>
+        <script>
+            var botoes = document.getElementsByTagName('button');
+            botoes[0].addEventListener('click', function() {
+                window.alert("Seja bem vindo a minha primeira página web");                
+            });
+
+        </script>
     </body>
 
 </html>
